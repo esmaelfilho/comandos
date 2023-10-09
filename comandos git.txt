@@ -1,0 +1,74 @@
+---Principais comandos Git--
+
+--Inicializar
+git init
+
+--clone com branch especifica
+git clone -b <branchname> <remote-repo-url>
+
+---adicionar
+git add .
+
+--commit
+git commit -m "comentario"
+
+--commit para adicionar um novo arquivo no commit antigo
+git commit --amend --no-edit
+
+--remover arquivos não rastreados
+git clean
+
+--remover arquivo
+git rm -rf nome_do_arquivo
+
+--parar de rastrear um arquivo
+git update-index --skip-worktree index.html
+
+--voltar a rastrear um arquivo
+git update-index --no-skip-worktree index.html
+
+--Desfazendo o último commit
+git revert head
+
+--renomear uma branch
+git branch -m novo-nome
+
+--listar as branches
+git branch -r
+
+--acessar um branch 
+ git checkout -b aula1
+
+--buscar as alterações
+git pull origin aula1
+
+-verificar a qual o projeto está vincula
+git remote -v
+
+--alterar a url remota
+git remote set-url origin NEW_URL
+git remote set-url origin https://github.com/esmaelfilho/gitrepodevteam.git
+
+--evniar projeto existente para o gitlab
+git remote add origin https://github.com/esmaelfilho/gitrepodevteam.git
+
+--criar nova branch a partir de outra
+git checkout -b meu-recurso
+
+--remover uma branch
+git branch -D nome_branch
+
+--enviar projeto já existente
+git remote add origin https://github.com/esmaelfilho/comandos.git
+git branch -M main
+git push -u origin main
+
+…or create a new repository on the command line
+echo "# comandos" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/esmaelfilho/comandos.git
+git push -u origin main
+
