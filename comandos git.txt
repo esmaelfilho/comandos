@@ -1,6 +1,6 @@
 ---Principais comandos Git--
 
---Inicializar-pt
+--Inicializar-en
 git init
 
 --clone com branch especifica
@@ -10,7 +10,7 @@ git clone -b <branchname> <remote-repo-url>
 git add .
 
 --commit
-git commit -m "comentario"-pt
+git commit -m "comentario"-en
 
 --commit para adicionar um novo arquivo no commit antigo
 git commit --amend --no-edit
@@ -50,7 +50,7 @@ git remote set-url origin NEW_URL
 git remote set-url origin https://github.com/esmaelfilho/gitrepodevteam.git
 
 --evniar projeto existente para o gitlab
-git remote add origin https://github.com/esmaelfilho/gitrepodevteam.git-pt
+git remote add origin https://github.com/esmaelfilho/gitrepodevteam.git-en
 
 --criar nova branch a partir de outra
 git checkout -b meu-recurso
