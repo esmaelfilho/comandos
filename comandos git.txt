@@ -1,6 +1,6 @@
 ---Principais comandos Git--
 
---Inicializar
+--Inicializar-pt
 git init
 
 --clone com branch especifica
