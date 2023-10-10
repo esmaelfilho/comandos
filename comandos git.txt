@@ -72,3 +72,6 @@ git branch -M main
 git remote add origin https://github.com/esmaelfilho/comandos.git
 git push -u origin main
 
+--Reverter ultimo merge
+git reset --hard HEAD~1
+
