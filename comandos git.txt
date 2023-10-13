@@ -81,3 +81,18 @@ git tav v1
 --enviar uma tag para o remoto
 git push origin v1
 
+
+--stash armazena em uma area as alterações para pode passar de uma branch para outra sem levar as alterações e depois aplica-la novamente na branch 
+git stash 
+
+--lista as stash
+git stash lista
+
+--aplicar uma stash
+git stash apply nome_stash
+
+--apagar uma stash e aplicar um stash
+git stash pop
+
+--apenas apagar
+git stash drop
