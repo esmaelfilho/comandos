@@ -58,6 +58,9 @@ git checkout -b meu-recurso
 --remover uma branch
 git branch -D nome_branch
 
+--remove branch remota
+git push --delete origin develop
+
 --enviar projeto já existente
 git remote add origin https://github.com/esmaelfilho/comandos.git
 git branch -M main
