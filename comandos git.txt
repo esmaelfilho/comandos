@@ -102,3 +102,7 @@ git stash drop
 
 --adicionando e commitando ao mesmo tempo
 git commit -a -m "adiciona e faz o commit"
+
+
+-enviar forçando apos apagar commit na branch local
+git push --force
