@@ -99,3 +99,6 @@ git stash pop
 
 --apenas apagar
 git stash drop
+
+--adicionando e commitando ao mesmo tempo
+git commit -a -m "adiciona e faz o commit"
