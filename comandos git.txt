@@ -94,13 +94,13 @@ git stash lista
 --aplicar uma stash
 git stash apply nome_stash
 
---apagar uma stash e aplicar um stash
+--apagar uma stash e aplicar um stash alteração rebase
 git stash pop
 
 --apenas apagar
 git stash drop
 
---adicionando e commitando ao mesmo tempo
+--adicionando e commitando ao mesmo tempo : alterando
 git commit -a -m "adiciona e faz o commit"
 
 
