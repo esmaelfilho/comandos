@@ -96,3 +96,5 @@ git stash pop
 
 --apenas apagar
 git stash drop
+
+--rebease--
