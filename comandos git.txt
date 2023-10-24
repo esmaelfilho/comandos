@@ -78,9 +78,6 @@ git push -u origin main
 --Reverter ultimo merge
 git reset --hard HEAD~1
 
---criar tag
-git tav v1
-
 --enviar uma tag para o remoto
 git push origin v1
 
